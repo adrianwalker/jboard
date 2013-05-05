@@ -1,0 +1,4 @@
+uploadDirectory=target/board/uploads
+imageMagickBin=C:/Program Files (x86)/ImageMagick-6.7.0-Q16/convert.exe
+lastPosts=3
+pageSize=10

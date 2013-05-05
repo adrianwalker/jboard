@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<ui:UiBinder
+  xmlns:ui='urn:ui:com.google.gwt.uibinder'
+  xmlns:g='urn:import:com.google.gwt.user.client.ui'
+  xmlns:view='urn:import:org.adrianwalker.jboard.client.view'>
+
+  <g:FormPanel ui:field="form" action="upload" encoding="multipart/form-data" method="POST">
+    <g:HTMLPanel styleName="FileSubmit">
+      <g:VerticalPanel ui:field="messages" styleName="Messages"/>                        
+      <table>
+        <tr>
+          <td>Subject:</td>    
+          <td>
+            <g:TextBox ui:field="subject" name="subject" maxLength="35" styleName="Subject"/>
+            <g:Button ui:field="submit" text="Submit" styleName="Submit"/>
+            <g:Hidden ui:field="uuid" name="uuid"/>
+          </td>
+        </tr>    
+        <tr>
+          <td>Comment:</td>    
+          <td>
+            <g:TextArea ui:field="comment" name="comment" characterWidth="48" visibleLines="4" styleName="Comment"/>
+          </td>    
+        </tr>
+        <tr>
+          <td>Bump:</td>    
+          <td>
+            <g:CheckBox ui:field="bump" name="bump" value="true" styleName="Bump"/>
+          </td>    
+        </tr>                
+        <tr>
+          <td>Image:</td>    
+          <td>
+            <g:FileUpload ui:field="file" name="file" title="select a file" styleName="File" />
+          </td>    
+        </tr>
+      </table>         
+    </g:HTMLPanel>
+  </g:FormPanel>                    
+</ui:UiBinder>

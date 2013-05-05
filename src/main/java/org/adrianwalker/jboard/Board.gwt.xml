@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="board">
+  <inherits name="com.google.gwt.user.User"/>
+
+  <stylesheet src="style.css" />
+
+  <entry-point class="org.adrianwalker.jboard.client.Board"/>
+
+  <source path="client"/>
+  <source path="common"/>
+
+</module>
+

@@ -1,0 +1,129 @@
+.Width420px {
+  width:420px;
+}
+
+.Width100pc {
+  width:100%;
+}
+
+.Index {
+  font-family: arial,helvetica,sans-serif;
+  font-size: small;
+}
+
+.Wrapper {
+  text-align: center;
+}
+
+.Header {}
+
+.Title {
+  font-family: tahoma;
+  font-size: xx-large;
+  letter-spacing: -2px;
+  font-weight: bolder;
+}
+
+.Description {
+  font-family: arial,helvetica,sans-serif;
+  font-size: small;    
+}
+
+.Container {
+  font-family: arial,helvetica,sans-serif;
+  font-size: small;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Container * {
+  font-family: arial,helvetica,sans-serif;
+  font-size: small;
+}
+
+.ContainerHead {
+  font-family: arial,helvetica,sans-serif;
+  font-size: small;
+  padding: 5px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.ContainerBody {
+  text-align: left;
+  padding: 5px;
+}
+
+.Paging {
+  font-family: arial,helvetica,sans-serif;
+  font-size: small;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Paging * {
+  font-family: arial,helvetica,sans-serif;
+  font-size: small;
+}
+
+.FileSubmit .Subject {
+  border: 1px solid lightgrey;
+  width: 250px;
+}
+
+.FileSubmit .Comment {
+  border: 1px solid lightgrey;
+}
+
+.FileSubmit .Submit {}
+
+.FileSubmit .Comment {}
+
+.FileSubmit .Bump {}
+
+.FileSubmit .File {
+  border: 1px solid lightgrey;
+  width: 310px;
+}
+
+.Success {
+  margin: 0;
+  padding-left: 16px;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-image:url('success.png');
+  background-repeat: no-repeat;
+  color: green;
+}
+
+.Error {
+  margin: 0;
+  padding-left: 16px;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-image:url('error.png');
+  background-repeat: no-repeat;
+  color: red;
+}
+
+.Subject {}
+
+.Date {}
+
+.Uuid {
+  cursor: pointer;
+}
+
+.Comment {
+}
+
+hr {
+  border-top: 1px solid lightgrey;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+}

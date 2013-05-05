@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<ui:UiBinder
+  xmlns:ui='urn:ui:com.google.gwt.uibinder'
+  xmlns:g='urn:import:com.google.gwt.user.client.ui'
+  xmlns:view='urn:import:org.adrianwalker.jboard.client.view'>
+
+  <g:HTMLPanel>
+    <div class="Wrapper">
+      <div class="Header">
+        <g:Label ui:field='title' styleName="Title"/>
+        <g:Label ui:field='description' styleName="Description"/>
+      </div>            
+            
+      <div class="Container Width420px">
+        <div class="ContainerHead">
+        </div>
+        <div class="ContainerBody">
+          <view:SubmitThread ui:field='submit'/>
+        </div>
+      </div>
+           
+      <div class="Container Width100pc">
+        <div class="ContainerHead">
+        </div>
+        <div class="ContainerBody">
+          <g:VerticalPanel ui:field='threadsPanel' styleName="Width100pc"/>
+        </div>
+      </div>
+                     
+      <div class="Paging Width100pc">
+        <g:HorizontalPanel ui:field='pagingPanel'/>
+      </div>
+    </div>
+  </g:HTMLPanel>
+</ui:UiBinder>
